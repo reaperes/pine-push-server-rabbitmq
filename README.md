@@ -8,6 +8,9 @@ Install docker (http://docs.docker.com/installation/ubuntulinux/)
 
 Run
 ----
+ 5672 port : rabbitmq node
+15672 port : rabbitmq web management
+
     docker run -d \
                -p 8510:5672 \
                -p 18510:15672 \
