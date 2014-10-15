@@ -15,6 +15,7 @@ RUN \
 
 ENV RABBITMQ_LOG_BASE /data/log
 ENV RABBITMQ_MNESIA_BASE /data/mnesia
+ENV RABBITMQ_NODE_PORT 8510
 
 ADD ./start.sh /start.sh
 RUN chmod +x /start.sh
