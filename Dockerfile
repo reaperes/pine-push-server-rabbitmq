@@ -27,6 +27,6 @@ WORKDIR /root
 CMD ["/start.sh"]
 
 # Expose rabbitmq node port
-EXPOSE 5672
+EXPOSE 8510
 # Expose web management http port
 EXPOSE 15672
