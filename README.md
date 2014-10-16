@@ -15,7 +15,7 @@ Run
       -ti \
       -p 127.0.0.1:8510:8510 \
       -p 15672:15672 \
-      -name rabbitmq \
+      --name rabbitmq \
       reaperes/pine-push-server-rabbitmq
 
 You can tail the logs using docker logs -f $container_id
