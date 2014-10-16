@@ -13,7 +13,7 @@ Run
 
     sudo docker run \
       -ti \
-      -p 8510:8510 \
+      -p 127.0.0.1:8510:8510 \
       -p 15672:15672 \
       -name rabbitmq \
       reaperes/pine-push-server-rabbitmq
